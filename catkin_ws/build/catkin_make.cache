@@ -1,2 +1,2 @@
-assignment3_turtlebot3
+assignment3_turtlebot3:assignment6_trackingandfollowing:assignment7_slam
 -DCATKIN_DEVEL_PREFIX=/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/install -G Unix Makefiles

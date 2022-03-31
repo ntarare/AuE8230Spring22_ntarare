@@ -1,0 +1,8 @@
+prefix=/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/install
+
+Name: assignment6_trackingandfollowing
+Description: Description of assignment6_trackingandfollowing
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

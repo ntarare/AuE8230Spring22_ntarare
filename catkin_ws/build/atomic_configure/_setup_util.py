@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/ninad/catkin_ws/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/devel;/home/ninad/catkin_ws/devel_isolated/turtlebot3_simulations;/home/ninad/catkin_ws/devel_isolated/turtlebot3_gazebo;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_driving;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_msgs;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_detect;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_core;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_camera;/home/ninad/catkin_ws/devel_isolated/turtlebot3_autorace_2020;/home/ninad/catkin_ws/devel_isolated/raspicam_node;/home/ninad/catkin_ws/devel_isolated/apriltag_ros;/home/ninad/catkin_ws/devel;/opt/ros/noetic;/home/ninad/catkin_ws/devel_isolated/apriltag'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
