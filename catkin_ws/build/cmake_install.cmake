@@ -132,8 +132,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/assignment3_turtlebot3/cmake_install.cmake")
+  include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/assignment5_wallfollowingandobstacleavoidance/cmake_install.cmake")
   include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/assignment7_slam/cmake_install.cmake")
-  include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/assignment6_trackingandfollowing/cmake_install.cmake")
+  include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/darknet/darknet_ros_msgs/cmake_install.cmake")
+  include("/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/build/darknet/darknet_ros/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,8 @@
+prefix=/home/ninad/git_ws/AuE8230Spring22_ntarare/catkin_ws/install
+
+Name: aue_finals
+Description: Description of aue_finals
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -6,5 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("assignment3_turtlebot3")
+subdirs("assignment5_wallfollowingandobstacleavoidance")
 subdirs("assignment7_slam")
-subdirs("assignment6_trackingandfollowing")
+subdirs("darknet/darknet_ros_msgs")
+subdirs("darknet/darknet_ros")
